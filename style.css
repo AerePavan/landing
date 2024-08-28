@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: 'arial',sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    background-color: rosybrown;
+    color: white;
+    padding: 1rem 0;
+}
+nav h1{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.cta-button{
+    display: inline-block;
+    padding: 10px  20px;
+    margin-top: 20px;
+    background-color: #4cAF50;
+    color: white;
+    text-decoration: none;
+}
+.features{
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+.feature-item{
+    margin-bottom: 40px;
+}
+.contact{
+    padding: 80px 0;
+    background-color: #333;
+    color: white;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: #4cAF50;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+}
+button:hover{
+    background-color: #45a049;
+}
+a:hover{
+    background-color: goldenrod;
+}
